@@ -5,7 +5,7 @@ public class GeneradorCongruencialLinealMixto_1 {
     public static void main(String[] args) {
         // Valores específicos que cumplen con todas las condiciones
         final long semilla = 1;         // Xo = 1 (positivo)
-        final long multiplicador = 21;   // a = 21 (impar, no divisible por 3 ni 5, (a-1) mod 4 = 0)
+        final long multiplicador = 21;   // a = 21 (impar, no divisible por 3 ó 5, (a-1) mod 4 = 0)
         final long incremento = 13;     // c = 13 (impar, primo relativo con m)
         final long modulo = 50;         // m = 50 (mayor que Xo, a, c)
 
