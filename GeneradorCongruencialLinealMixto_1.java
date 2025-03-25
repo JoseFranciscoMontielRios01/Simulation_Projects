@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//Trabajo hecho por los alumnos: José Francisco Montiel Ríos y Carlos Alberto Uribe Flores
 
 public class GeneradorCongruencialLinealMixto_1 {
     public static void main(String[] args) {
