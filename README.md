@@ -1,4 +1,4 @@
-# Simulation_Projects
+# Generador Congruencial Lineal Mixto (GCLM)
 El funcionamiento detallado del código que has proporcionado es el siguiente:
 
 ### 1. Declaración de Variables y Valores Iniciales:
