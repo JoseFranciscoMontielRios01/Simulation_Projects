@@ -1,0 +1,15 @@
+Est0s código implementa un generador congruencial multiplicativo que produce números pseudoaleatorios usando la fórmula:
+
+Xₙ₊₁ = (a · Xₙ) mod m
+
+Genera un valor válido y pseudoaleatorio para modulo.
+
+Genera una semilla X₀ válida en el rango [1, m − 1].
+
+Busca un multiplicador a que sea raíz primitiva módulo m usando factorización de φ(m) = m − 1 y exponenciación modular.
+
+Asigna el período teórico como m − 1, coherente con la teoría de raíces primitivas.
+
+Ofrece un método imprimirIteraciones(int n) que avanza la sucesión, verifica si la semilla repite antes de m − n, imprime las últimas n parejas (Xᵢ, Xᵢ/m) y muestra un mensaje confirmando si el período completo se cumplió o si hubo repetición prematura.
+
+Permite inspeccionar los parámetros (m, X₀, a) en binario para validar la configuración del generador.
